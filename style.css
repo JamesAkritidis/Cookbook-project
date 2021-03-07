@@ -8,6 +8,8 @@ html {
     font-size: 62.5%;
 }
 
+/* footer section */
+
 footer a {
     text-decoration: none;
     color: #B07C2D;
@@ -19,10 +21,10 @@ footer a:hover {
 
 .footer-container {
     display: flex;
-    background-color: #4D0000;
+    background-color: rgb(73, 68, 68);
     justify-content: space-around;
     font-size: 1.5rem;
-    color: #B07C2D;
+    color: rgb(175, 109, 48);
     align-items: baseline;
 }
 
@@ -62,7 +64,7 @@ footer img {
 
 .copyright {
     text-align: center;
-    background-color: #4D0000;
-    color: #B07C2D;
+    background-color: rgb(73, 68, 68);
+    color: rgb(175, 109, 48);
     padding-bottom: 1rem;
 }
