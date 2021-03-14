@@ -52,46 +52,82 @@
 
 /* Main Section of Dessert */
 
+.dessert-description {
+  background-color:rgb(73, 68, 68);
+  color:rgb(175, 109, 48);
+  border: 0.2rem solid rgb(175, 109, 48);
+  border-radius: 50%;
+  text-align: center;
+  width: 30rem;
+  height: 5rem;
+  padding-top: 1rem;
+}
+
+.description-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.dessert-instructions {
+  background-color:rgb(73, 68, 68);
+  color:rgb(175, 109, 48);
+  border: 0.2rem solid rgb(175, 109, 48);
+  border-radius: 50%;
+  text-align: center;
+  width: 50rem;
+  height: 7rem;
+  padding-top: 1rem;
+}
+
+.instruction-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
 .desserts {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    min-height: 75vh;
-    justify-content: space-around;
-    background-image: url('C:/Users/Lord Vader/Cookbook-project/pexels-fwstudio-139312.jpg');
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 75vh;
+  justify-content: space-around;
+  background-image: url('C:/Users/Lord Vader/Cookbook-project/pexels-fwstudio-139312.jpg');
 }
 
 .dessert-wrapper {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
+  
 }
 
 #dessert-img {
-    border: 0.3rem solid rgb(175, 109, 48);
-    border-radius: 50%;
-    width: 60rem;
-    margin: 3rem;
+  border: 0.3rem solid rgb(175, 109, 48);
+  border-radius: 50%;
+  width: 60rem;
+  margin: 3rem;
 }
 
 
 .dessert-recipe {
-    display: inline-block;
-    text-align: center;
-    background-color:rgb(73, 68, 68);
-    color:rgb(175, 109, 48);
-    border-radius: 50%;
-    width: 50rem;
-    height: 25rem;
-    border: 0.3rem solid rgb(175, 109, 48);
+  display: inline-block;
+  text-align: center;
+  background-color:rgb(73, 68, 68);
+  color:rgb(175, 109, 48);
+  border-radius: 50%;
+  width: 50rem;
+  height: 25rem;
+  border: 0.3rem solid rgb(175, 109, 48);
 }
 
 .dessert-recipe li {
-    font-size: 2rem; 
+  font-size: 2rem; 
+  padding-top: 1.5rem;;
 }
 
 ol {
-    list-style-position: inside;
+  list-style-position: inside;
+  
 }
 
 
