@@ -1,0 +1,138 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.container-main{
+   display:flex;
+   width: 100%;
+   height: 50vh;
+   border-style: thick solid black;
+}
+
+
+.sidebar{
+display:flex;
+background-color: rgb(175, 109, 48);
+width: 10vw;
+height: 100.3vh;
+}
+
+ ul {
+    display:flex;
+    font-size: 2.5rem;
+    flex-direction: column;
+ }
+
+ .Menu {
+    display:flex;
+    color: rgb(251, 255, 0);
+    font-family: Helvetica, sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+   
+ }
+
+ .button {
+    display:flex;
+    color:rgba(175, 109, 48, 0.027);
+    font-family: Helvetica, sans-serif;
+    margin-block: 1.5rem;
+
+ }
+
+ /*
+ .dish {
+   display:flex;
+   background-color: rgba(175, 109, 48, 0.226);
+   width: 100%;
+  height: 50.2Svh;
+ }
+
+ .simage{
+   display: flex;
+   width: 30rem;
+   height: 35rem;
+   margin-left: 3rem; 
+}
+
+.recipepart{
+display: flex;
+flex-direction: column;
+
+
+}
+.recipe {
+   display: flex;
+ font-size: 2rem;
+   justify-content: space-around;
+   margin-right: 3rem;
+   margin-left: 10rem;
+}
+
+.recipetext{
+display: flex;
+font-size: 1.6rem;
+font-family: Helvetica, sans-serif;
+margin-top: 2.5rem;
+margin-left: 10rem;
+}
+
+.ingredientspart {
+display: flex;
+flex-direction: column;
+}
+
+.ingredientslunch{
+   display: flex;
+   font-size: 2rem;
+   justify-content: space-around;
+   margin-right: 5rem;
+   margin-left: 10rem;
+}
+
+.ingredstext{
+   display: flex;
+   font-size: 1.6rem;
+   font-family: Helvetica, sans-serif;
+   justify-content: center;
+   margin-top: 2.5rem;
+   margin-left: 10rem;
+}
+
+*/
+.chefcook{
+   display:flex;
+   background-color: rgba(175, 109, 48, 0.226);
+   width: 90.9%;
+   height: 50.2vh; 
+   margin-left: 13.85rem;
+   flex-direction: column;
+}
+
+
+
+.about{
+display: flex;
+font-size: 2.5rem;
+font-family: Helvetica, sans-serif;
+width: 90.9%;
+height: 10vh;
+justify-content: center;
+}
+
+.crew{
+display: flex;
+font-family: Helvetica, sans-serif;
+font-size: 1.6rem;
+line-height: 1.6;
+justify-content: center;
+}
