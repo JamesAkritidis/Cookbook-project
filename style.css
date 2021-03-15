@@ -1,4 +1,3 @@
-
 /* global styles */
 
 * {
@@ -11,12 +10,18 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
+  color: aliceblue;
 }
 h1 {
   font-size: 4.7rem;
 }
+h2 {
+  font-size: 4rem;
+}
 ul {
   font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -45,7 +50,6 @@ nav ul {
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
-  list-style: none;
 }
 #home {
   flex: 2.5 1 auto;
@@ -53,190 +57,342 @@ nav ul {
 }
 
 /*start main-section*/
-.container-main{
-   display:flex;
-   width: 100%;
-   height: 50vh;
-   border-style: thick solid black;
+.container-main {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  border-style: thick solid black;
 }
 
-
-.sidebar{
-display:flex;
-background-color: rgb(175, 109, 48);
-width: 10vw;
-height: 100.3vh;
+.sidebar ul {
+  display: flex;
+  background-color: rgb(175, 109, 48);
+  width: 10vw;
+  height: 90vh;
+}
+.sidebar a {
+  color: #e6e6fa;
 }
 
- ul {
-    display:flex;
-    font-size: 2.5rem;
-    flex-direction: column;
- }
-
- .Menu {
-    display:flex;
-    color: rgb(251, 255, 0);
-    font-family: Helvetica, sans-serif;
-    margin-left: 1rem;
-    margin-bottom: 1.5rem;
-   
- }
-
- .button {
-    display:flex;
-    color:rgba(175, 109, 48, 0.027);
-    font-family: Helvetica, sans-serif;
-    margin-block: 1.5rem;
-
- }
-
- /*
- .dish {
-   display:flex;
-   background-color: rgba(175, 109, 48, 0.226);
-   width: 100%;
-  height: 50.2Svh;
- }
-
- .simage{
-   display: flex;
-   width: 30rem;
-   height: 35rem;
-   margin-left: 3rem; 
+.sidebar ul {
+  display: flex;
+  font-size: 2.5rem;
+  flex-direction: column;
 }
 
-.recipepart{
-display: flex;
-flex-direction: column;
+.Menu {
+  display: flex;
+  color: rgb(251, 255, 0);
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
 
+.button {
+  display: flex;
+  color: rgba(175, 109, 48, 0.027);
+  margin-block: 1.5rem;
+}
 
+.dish {
+  display: flex;
+  background-color: rgba(175, 109, 48, 0.226);
+  width: 100vw;
+  height: 50vh;
+}
+
+.simage {
+  display: flex;
+  width: 30rem;
+  height: 35rem;
+  margin-left: 3rem;
+}
+
+.recipepart {
+  display: flex;
+  flex-direction: column;
 }
 .recipe {
-   display: flex;
- font-size: 2rem;
-   justify-content: space-around;
-   margin-right: 3rem;
-   margin-left: 10rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-around;
+  margin-right: 3rem;
+  margin-left: 10rem;
 }
 
-.recipetext{
-display: flex;
-font-size: 1.6rem;
-font-family: Helvetica, sans-serif;
-margin-top: 2.5rem;
-margin-left: 10rem;
+.recipetext {
+  display: flex;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
 }
 
 .ingredientspart {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.ingredientslunch{
-   display: flex;
-   font-size: 2rem;
-   justify-content: space-around;
-   margin-right: 5rem;
-   margin-left: 10rem;
+.ingredientslunch {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-around;
+  margin-right: 5rem;
+  margin-left: 10rem;
 }
 
-.ingredstext{
-   display: flex;
-   font-size: 1.6rem;
-   font-family: Helvetica, sans-serif;
-   justify-content: center;
-   margin-top: 2.5rem;
-   margin-left: 10rem;
+.ingredstext {
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+}
+/* second div CHEFCOOK */
+/* .chefcook {
+  display: flex;
+  background-color: rgba(255, 8, 0, 0.226);
+  width: 90.9%;
+  height: 50.2vh;
+  margin-left: 13.85rem;
+  flex-direction: column;
+} */
+.chefcook {
+  background-color: red;
+  height: 40vh;
+}
+.chefcook p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12rem;
+  margin-left: 24rem;
+}
+.chefcook h4 {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  padding: 2rem;
+  margin-left: 24rem;
 }
 
-*/
-.chefcook{
-   display:flex;
-   background-color: rgba(175, 109, 48, 0.226);
-   width: 90.9%;
-   height: 50.2vh; 
-   margin-left: 13.85rem;
-   flex-direction: column;
+.about {
+  display: flex;
+  font-size: 2.5rem;
+  /* width: 90.9%; */
+  height: 10vh;
+  justify-content: center;
 }
 
-
-
-.about{
-display: flex;
-font-size: 2.5rem;
-font-family: Helvetica, sans-serif;
-width: 90.9%;
-height: 10vh;
-justify-content: center;
-}
-
-.crew{
-display: flex;
-font-family: Helvetica, sans-serif;
-font-size: 1.6rem;
-line-height: 1.6;
-justify-content: center;
+.crew {
+  display: flex;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  justify-content: center;
 }
 
 /*main-section*/
+
+/* Main Section of Dessert */
+
+.desserts {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 75vh;
+  justify-content: space-around;
+  background-image: url("C:/Users/Lord Vader/Cookbook-project/pexels-fwstudio-139312.jpg");
+}
+
+.dessert-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#dessert-img {
+  border: 0.3rem solid rgb(175, 109, 48);
+  border-radius: 50%;
+  width: 60rem;
+  margin: 3rem;
+}
+
+.dessert-recipe {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(73, 68, 68);
+  color: rgb(175, 109, 48);
+  border-radius: 50%;
+  width: 50rem;
+  height: 25rem;
+  border: 0.3rem solid rgb(175, 109, 48);
+}
+
+.dessert-recipe li {
+  font-size: 2rem;
+}
+
+ol {
+  list-style-position: inside;
+}
+
 /* footer section */
 
 footer a {
-    text-decoration: none;
-    color: #B07C2D;
+  text-decoration: none;
+  color: #b07c2d;
 }
 
 footer a:hover {
-    color: #e6e6fa;
+  color: #e6e6fa;
 }
 
 .footer-container {
-    display: flex;
-    background-color: rgb(73, 68, 68);
-    justify-content: space-around;
-    font-size: 1.5rem;
-    color: rgb(175, 109, 48);
-    align-items: baseline;
+  display: flex;
+  background-color: rgb(73, 68, 68);
+  justify-content: space-around;
+  font-size: 1.5rem;
+  color: rgb(175, 109, 48);
+  align-items: baseline;
 }
 
 .f-logo {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 footer h3 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .social-media {
-    justify-content: space-around;   
+  justify-content: space-around;
 }
 
 .contact li {
-    display: block;
+  display: block;
 }
 
 footer li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
 }
 
 footer img {
-    margin-right: 2rem;
-    width: 2rem;
-    height: 2rem;
+  margin-right: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 #logo {
-    padding-left: 2rem; 
+  padding-left: 2rem;
 }
 
 .copyright {
-    text-align: center;
-    background-color: rgb(73, 68, 68);
-    color: rgb(175, 109, 48);
-    padding-bottom: 1rem;
+  text-align: center;
+  background-color: rgb(73, 68, 68);
+  color: rgb(175, 109, 48);
+  padding-bottom: 1rem;
+}
+
+/* breakfast section Dimitris */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  margin: auto;
+}
+
+.section {
+  height: 100vh;
+  /* background-color: rgb(73, 68, 68); */
+  background-color: #b07c2d;
+}
+
+.section:first-child {
+  width: 30%;
+  /* background-color: rgb(223, 74, 99); */
+  display: flex;
+}
+.section-left img {
+  display: flex;
+}
+
+.section:last-child {
+  width: 66%;
+}
+
+.section-header {
+  height: 20vh;
+  /* background-color: rgb(228, 168, 65); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-main {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  flex-direction: column;
+}
+
+.section-aside {
+  width: 100%;
+  height: 36.5vh;
+  /* background-color: rgb(40, 139, 27); */
+  justify-content: space-between;
+  align-items: center;
+  /* border: thick solid red; */
+  margin: 2rem 0rem;
+}
+.section-aside ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+.section-aside h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+.section-aside p {
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .section:first-child,
+  .section:last-child {
+    width: 100%;
+  }
+
+  .section:first-child {
+    margin-bottom: 30px;
+  }
+
+  .section-main {
+    flex-direction: column;
+  }
+
+  .section-aside {
+    width: 100%;
+  }
+
+  .section-aside:first-child {
+    margin-bottom: 30px;
+  }
 }
