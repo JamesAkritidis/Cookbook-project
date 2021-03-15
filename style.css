@@ -73,7 +73,7 @@ nav ul {
   color: #e6e6fa;
 }
 
-ul {
+.sidebar ul {
   display: flex;
   font-size: 2.5rem;
   flex-direction: column;
